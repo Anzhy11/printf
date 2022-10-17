@@ -65,7 +65,7 @@ If the program runs successfully, the return value is the amount of chars printe
 
 ## File Functions
 
-### \_printf.c
+### _printf.c
 
 the function that imitates printf(), by printing data.
 
@@ -83,7 +83,7 @@ manpage file
 
 ---
 
-### parse_char.c
+### func_char.c
 
 Function that writes the Buffer Character.
 
@@ -91,7 +91,7 @@ Function that writes the Buffer Character.
 
 ---
 
-### parse_int.c
+### func_int.c
 
 Function that Prints an Integer.
 
@@ -99,7 +99,7 @@ Function that Prints an Integer.
 
 ---
 
-### parse_string.c
+### func_string.c
 
 Function that Prints out a String.
 
@@ -107,7 +107,7 @@ Function that Prints out a String.
 
 ---
 
-### parse_binary.c
+### func_binary.c
 
 Function that Prints a Binary.
 
@@ -115,14 +115,14 @@ Function that Prints a Binary.
 
 ---
 
-### parse_perc.c
+### func_perc.c
 
 Function that Prints a Percentage symbol.
 
     /* Indetifier : %% */
 
 ---
-### parse_oct.c
+### func_oct.c
 
 Function that Prints Decimal in Octal.
 
@@ -130,7 +130,7 @@ Function that Prints Decimal in Octal.
 
 ---
 
-### parse_hex.c
+### func_hex.c
 
 Function that Prints Decimal in Hexadecimal.
 
@@ -138,7 +138,7 @@ Function that Prints Decimal in Hexadecimal.
 
 ---
 
-### parse_x_X.c
+### func_x_X.c
 
 Function that prints Decimal in Uppercase Hexadecimal.
 
@@ -146,7 +146,7 @@ Function that prints Decimal in Uppercase Hexadecimal.
 
 ---
 
-### parse_unit.c
+### func_unit.c
 
 Function that Prints an Unsigned Integer.
 
@@ -154,7 +154,7 @@ Function that Prints an Unsigned Integer.
 
 ---
 
-### parse_buff.c
+### print_buff.c
 
 Function that Prints the Buffer
 
