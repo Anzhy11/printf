@@ -25,16 +25,16 @@ int buff_append(char *buff_dest, va_list arg, int buff_count, char type);
 int print_buff(char *buff, unsigned int nbuff);
 int str_len(char *s);
 char *_strcpy(char *dest, char *src);
-int parse_char(char *buff_dest, va_list arg, int buff_count);
-int parse_str(char *buff_dest, va_list arg, int buff_count);
-int parse_int(char *buff_dest, va_list list, int buff_count);
-int parse_perc(char *buff_dest, va_list arg, int buff_count);
-int parse_bin(char *buff_dest, va_list arg, int buff_count);
-int parse_oct(char *buff_dest, va_list arg, int buff_count);
-int parse_hex(char *buff_dest, va_list arg, int buff_count);
-int parse_X(char *buff_dest, va_list arg, int buff_count);
-int parse_uint(char *buff_dest, va_list arg, int buff_count);
-int parse_rev(char *buff_dest, va_list arg, int buff_count);
-int parse_R13(char *buff_dest, va_list arg, int buff_count);
+int func_char(char *buff_dest, va_list arg, int buff_count);
+int func_str(char *buff_dest, va_list arg, int buff_count);
+int func_int(char *buff_dest, va_list list, int buff_count);
+int func_perc(char *buff_dest, va_list arg, int buff_count);
+int func_bin(char *buff_dest, va_list arg, int buff_count);
+int func_oct(char *buff_dest, va_list arg, int buff_count);
+int func_hex(char *buff_dest, va_list arg, int buff_count);
+int func_X(char *buff_dest, va_list arg, int buff_count);
+int func_uint(char *buff_dest, va_list arg, int buff_count);
+int func_rev(char *buff_dest, va_list arg, int buff_count);
+int func_rot13(char *buff_dest, va_list arg, int buff_count);
 
 #endif
